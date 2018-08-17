@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "rules": {
+        "arrow-parens": false,
+        "interface-name": [true, "never-prefix"],
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "object-literal-sort-keys": false,
+        "quotemark": ["single"]
+    }
+}
