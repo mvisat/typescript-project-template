@@ -1,10 +1,10 @@
 {
   "name": "typescript-project-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My template for TypeScript projects",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "tsc",
     "lint": "tslint --project ./tsconfig.json",
     "prepublishOnly": "yarn build",
     "test": "jest"
@@ -25,16 +25,15 @@
   },
   "homepage": "https://github.com/mvisat/typescript-project-template#readme",
   "devDependencies": {
-    "@types/jest": "^23.3.1",
-    "@types/node": "^10.7.1",
-    "jest": "^23.5.0",
-    "rimraf": "^2.6.2",
-    "ts-jest": "^23.1.3",
-    "tslint": "^5.11.0",
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.0.1"
+    "typescript": "^3.2.4"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   }
 }
